@@ -1,9 +1,9 @@
 .right-section {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 20%;
-  height: 80%;
+  height: 100%;
   padding: 0px 10px;
   border-radius: 10px;
   background-color: #555;
