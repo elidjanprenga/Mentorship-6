@@ -1,51 +1,49 @@
-.right-overflow {
-  overflow-y: scroll;
-  height: 100%;
-}
-.right-overflow .right-section {
+.right-section {
   position: absolute;
   top: 0;
   right: 0;
   width: 20%;
+  height: 80%;
   padding: 0px 10px;
   border-radius: 10px;
   background-color: #555;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
+  overflow-y: auto;
 }
-.right-overflow .right-section .right-card {
+.right-section .right-card {
   border-radius: 10px;
   background-color: #111010;
   color: white;
   margin-top: -5px;
   margin-bottom: 10px;
 }
-.right-overflow .right-section .right-card .card-content {
+.right-section .right-card .card-content {
   padding: 10px;
 }
-.right-overflow .right-section .right-card .card-content h3 {
+.right-section .right-card .card-content h3 {
   color: white;
   margin: 0;
 }
-.right-overflow .right-section .right-card .card-content p {
+.right-section .right-card .card-content p {
   color: #555;
   margin-top: 5px;
   margin-bottom: 7px;
 }
-.right-overflow .right-section .right-card .card-img {
+.right-section .right-card .card-img {
   background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-1.jpg");
   background-size: cover;
   height: 30vh;
   width: 100%;
   border-radius: 10px;
 }
-.right-overflow .right-section .right-card .card-img p {
+.right-section .right-card .card-img p {
   color: white;
   padding: 10px;
 }
-.right-overflow .right-section .second-card .card-img {
+.right-section .second-card .card-img {
   background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-2.jpg");
 }
-.right-overflow .right-section .third-card .card-img {
+.right-section .third-card .card-img {
   background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-3.jpg");
 }/*# sourceMappingURL=main.css.map */
