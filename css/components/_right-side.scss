@@ -1,0 +1,80 @@
+
+
+.right-overflow{
+
+    overflow-y:scroll ;
+    height: 100%;
+
+    .right-section{
+        // float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20%;
+        padding: 0px 10px;
+        border-radius: 10px;
+        background-color: #555;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        
+
+        .right-card{
+            border-radius: 10px;
+            background-color:  #111010;
+            color: white;
+            margin-top: -5px;
+            margin-bottom: 10px;
+
+            .card-content{
+                padding: 10px;
+                h3{
+                    color: white;
+                    margin: 0;
+                    
+                }
+
+                p{
+                    color: #555;
+                    margin-top: 5px;
+                    margin-bottom: 7px;
+                }
+            }
+            
+
+            .card-img{
+            background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-1.jpg");
+            background-size: cover;
+            height: 30vh;
+            width: 100%;
+            border-radius: 10px;
+            
+            p{
+                color: white;
+                padding: 10px;
+            }
+            }
+
+            
+            
+            
+        }   
+        .second-card{
+
+            .card-img{
+                background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-2.jpg");
+            } 
+        }
+
+        .third-card{
+            
+            .card-img{
+                background-image: url("/Applications/WEB dev/Mentoships/Mentorship:6/images/artist-3.jpg");
+            } 
+        }
+
+    }
+
+        
+
+        
+}
